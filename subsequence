@@ -1,0 +1,5 @@
+# INCREASING SUBSEQUENCE
+1. An increasing subsequence of length k of the sequence a1,…,an is a sequence of indices i1,…,ik such that 1≤i1<…<ik≤n and ai1<…<aik.
+
+# LONGEST INCREASING SUBSEQUENCE
+2. A longest increasing subsequence is an increasing subsequences with the largest length.
