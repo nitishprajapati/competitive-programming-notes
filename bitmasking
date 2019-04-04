@@ -1,0 +1,16 @@
+The most precise definition of "BITMASKING" one could come up with (w.r.t. competitive programming) : 
+Bitmasking usually refers to the technique of representing a 'subset' of a set using a bit vector, 
+where ith bit of the vector is set iff the corresponding element belongs to the subset.
+
+      +---------------------------------------------------------------------------+
+      |                                                                           |
+      |     Eg,                                                                   |
+      |     S={a,b,c,d},                                                          |
+      |     then bit vector b=(1,0,1,1) would represent the subset S′={a,c,d}.    |
+      |                                                                           |
+      +---------------------------------------------------------------------------+
+
+ it is useful where ever subsets have to be considered, and is usually needed in competitive programming 
+ when all subsets have to be iterated upon. 
+ This technique is better than the usual recursive way of generating all subsets because it's easier, 
+ saves memory on call stack, and saves the parameter passing hassles.
